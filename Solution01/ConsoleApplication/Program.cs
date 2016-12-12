@@ -14,7 +14,7 @@ namespace ConsoleApplication
         static void Main(string[] args)
         {
             var test = new Test();
-            test.DoWork();
+            test.PrintHello();
         }
     }
 }
