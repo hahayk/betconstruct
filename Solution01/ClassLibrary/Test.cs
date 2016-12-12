@@ -8,6 +8,10 @@ namespace ClassLibrary
 {
     public class Test
     {
+        public void DoWork()
+        {
+            Console.WriteLine("Hello World");
+        }
 
     }
 }
