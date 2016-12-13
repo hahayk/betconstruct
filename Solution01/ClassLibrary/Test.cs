@@ -1,17 +1,20 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ClassLibrary
 {
     public class Test
     {
+        /// <summary>
+        /// This is Documentation of ClassLibrary
+        /// </summary>
         public void PrintHello()
         {
-            Console.WriteLine("Hello World"); 
+            Console.WriteLine("Hello World");
         }
 
+        public void Add(int x, int y)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }
