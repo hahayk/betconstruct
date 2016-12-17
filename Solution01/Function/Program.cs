@@ -22,29 +22,29 @@ namespace Function
                 Console.WriteLine(item);
             }
 
-          //  F1(1, 2);
-          //  F2(b: 5, a: 3);
-          //  F2(1, 2, d: 7);
+            F1(1, 2);
+            F2(b: 5, a: 3);
+            F2(1, 2, d: 7);
 
-          //  F3(1, 2, 3, 4, 5, 6, 7);
-          //  F3(1, 2, new int[] { 4, 3, 5, 6 });
+            F3(1, 2, 3, 4, 5, 6, 7);
+            F3(1, 2, new int[] { 4, 3, 5, 6 });
 
-          //  //call overloaded with 2 params
-          //  F3(1, new int[] { 4, 3, 5, 6 });
+            //call overloaded with 2 params
+            F3(1, new int[] { 4, 3, 5, 6 });
 
-          //  int a;
-          ////  F4(ref a);
-          //  F4(out a);
+            int a;
+            //  F4(ref a);
+            F4(out a);
 
-          //  int c;
-          //  if (!int.TryParse("a", out c))
-          //  {
-          //      c = 2;
-          //  }
+            int c;
+            if (!int.TryParse("a", out c))
+            {
+                c = 2;
+            }
 
 
             string val = "w";
-            // fRetVal(val);
+            fRetVal(val);
 
             
             for (ulong i = 0; i < 100; ++i)
@@ -74,38 +74,38 @@ namespace Function
 
         }
 
-        //static void F1(int a, int b, int c = 10)
-        //{
+        static void F1(int a, int b, int c = 10)
+        {
 
-        //}
+        }
 
-        //static void F2(int a, int b)
-        //{
+        static void F2(int a, int b)
+        {
 
-        //}
+        }
 
-        //static void F2(int a, int b, int c = 3, int d = 4)
-        //{
+        static void F2(int a, int b, int c = 3, int d = 4)
+        {
 
-        //}
+        }
 
-        //static void F3(int a, int b, params int[] c)
-        //{
+        static void F3(int a, int b, params int[] c)
+        {
 
-        //}
+        }
 
-        //static void F3(int a, int[] c)
-        //{
+        static void F3(int a, int[] c)
+        {
 
-        //}
+        }
 
-        //static void F4(ref int a )
-        //{ }
+        static void F4(ref int a)
+        { }
 
-        //static void F4(out int a, int b = 9)
-        //{
-        //    a = 1;
-        //}
+        static void F4(out int a, int b = 9)
+        {
+            a = 1;
+        }
 
         static int fRetVal(string retVal)
         {
