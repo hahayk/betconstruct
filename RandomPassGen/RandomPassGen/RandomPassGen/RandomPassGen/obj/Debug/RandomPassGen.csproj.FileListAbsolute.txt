@@ -1,0 +1,16 @@
+C:\Users\HaykHar\Source\Repos\betconstruct\RandomPassGen\RandomPassGen\bin\Debug\RandomPassGen.exe.config
+C:\Users\HaykHar\Source\Repos\betconstruct\RandomPassGen\RandomPassGen\bin\Debug\RandomPassGen.exe
+C:\Users\HaykHar\Source\Repos\betconstruct\RandomPassGen\RandomPassGen\bin\Debug\RandomPassGen.pdb
+C:\Users\HaykHar\Source\Repos\betconstruct\RandomPassGen\RandomPassGen\bin\Debug\RandomPassGenerator.dll
+C:\Users\HaykHar\Source\Repos\betconstruct\RandomPassGen\RandomPassGen\bin\Debug\RandomPassGenerator.pdb
+C:\Users\HaykHar\Source\Repos\betconstruct\RandomPassGen\RandomPassGen\obj\Debug\RandomPassGen.csprojResolveAssemblyReference.cache
+C:\Users\HaykHar\Source\Repos\betconstruct\RandomPassGen\RandomPassGen\obj\Debug\MainWindow.g.cs
+C:\Users\HaykHar\Source\Repos\betconstruct\RandomPassGen\RandomPassGen\obj\Debug\App.g.cs
+C:\Users\HaykHar\Source\Repos\betconstruct\RandomPassGen\RandomPassGen\obj\Debug\RandomPassGen_MarkupCompile.cache
+C:\Users\HaykHar\Source\Repos\betconstruct\RandomPassGen\RandomPassGen\obj\Debug\RandomPassGen_MarkupCompile.lref
+C:\Users\HaykHar\Source\Repos\betconstruct\RandomPassGen\RandomPassGen\obj\Debug\MainWindow.baml
+C:\Users\HaykHar\Source\Repos\betconstruct\RandomPassGen\RandomPassGen\obj\Debug\RandomPassGen.g.resources
+C:\Users\HaykHar\Source\Repos\betconstruct\RandomPassGen\RandomPassGen\obj\Debug\RandomPassGen.Properties.Resources.resources
+C:\Users\HaykHar\Source\Repos\betconstruct\RandomPassGen\RandomPassGen\obj\Debug\RandomPassGen.csproj.GenerateResource.Cache
+C:\Users\HaykHar\Source\Repos\betconstruct\RandomPassGen\RandomPassGen\obj\Debug\RandomPassGen.exe
+C:\Users\HaykHar\Source\Repos\betconstruct\RandomPassGen\RandomPassGen\obj\Debug\RandomPassGen.pdb
