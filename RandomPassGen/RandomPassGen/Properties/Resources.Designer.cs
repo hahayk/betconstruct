@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace RandomPassGen.Properties
+namespace RandomPassGenUI.Properties
 {
 
 

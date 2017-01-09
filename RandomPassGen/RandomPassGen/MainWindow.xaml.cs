@@ -2,7 +2,7 @@
 using System.Windows.Controls;
 using RandomPassGenerator;
 
-namespace RandomPassGen
+namespace RandomPassGenUI
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace RandomPassGen
+namespace RandomPassGenUI
 {
     /// <summary>
     /// Interaction logic for App.xaml
