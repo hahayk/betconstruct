@@ -7,22 +7,20 @@ namespace ForTest
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(killKthBit(37, 3));
+            var mng = new Manager("FullName", 99, 7890, 91120, "0000987", 8);
+
+            //Console.WriteLine("***** The Employee Class Hierarchy *****\n");
+
+            //Manager chucky = new Manager("Chucky", 50, 92, 100000, "333-23-2322", 9000);
+            //double cost = chucky.GetBenefitCost();
+            //var vr = chucky.Benefits;
+
+            mng.GetName();
+
+            var empl = new Employee("Name", 34, 1122, 898989);
+            empl.GetName();
+
         }
 
-        static int killKthBit(int n, int k)
-        {
-            string s1 = Convert.ToString(37, 2);
-            int len = s1.Length;
-
-            var array = Enumerable
-              .Repeat('1', s1.Length)
-              .ToArray();
-            array[k] = '0';
-
-            Console.WriteLine(Convert.ToInt32(s1, 10));
-
-            return 0;
-        }
     }
 }
