@@ -1,5 +1,6 @@
 ﻿using System.Windows;
 using System.Windows.Controls;
+using RandomPassGenerator;
 
 namespace RandomPassGen
 {
@@ -15,16 +16,19 @@ namespace RandomPassGen
 
         private void rnPassButton_Click(object sender, RoutedEventArgs e)
         {
-            RndPassGen gen = new RndPassGen();
+            RandomPasswordGenerator gen = new RandomPasswordGenerator(
+                                                        AllCheckBox.IsChecked, LowCheckBox.IsChecked, 
+                                                        HighCheckBox.IsChecked, SymbolsCheckBox.IsChecked, 
+                                                        NumbersCheckBox.IsChecked, HEXBox.IsChecked
+                                                        );
 
-
-            pswdTextBoxHEX.Text = gen.GeneratePasswordRnd(AllCheckBox.IsChecked, LowCheckBox.IsChecked, HighCheckBox.IsChecked,
-                                                        SymbolsCheckBox.IsChecked, NumbersCheckBox.IsChecked);
+            //Can be passed 0 argument, all except "AllCheckBox" are false by default
+            pswdTextBoxHEX.Text = gen.GeneratePasswordRnd();
         }
 
         private void listBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-        
+
         }
     }
 }
