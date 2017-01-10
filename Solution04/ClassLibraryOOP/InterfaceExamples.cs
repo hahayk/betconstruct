@@ -97,6 +97,21 @@ namespace ClassLibraryOOP
 
     public class Programm
     {
-        public void
+        public void Main()
+        {
+            var a = new A();
+            var b = new B();
+
+            DoWork(a);
+            DoWork(b);
+            
+        }
+
+        public void DoWork(I value)
+        {
+            Console.WriteLine(value.X);
+            value.F();
+        }
+
     }
 }
