@@ -1,0 +1,4 @@
+C:\Users\HaykHar\Source\Repos\betconstruct\RandomPassGen\RandomPassGenerator\bin\Debug\RandomPassGenerator.dll
+C:\Users\HaykHar\Source\Repos\betconstruct\RandomPassGen\RandomPassGenerator\bin\Debug\RandomPassGenerator.pdb
+C:\Users\HaykHar\Source\Repos\betconstruct\RandomPassGen\RandomPassGenerator\obj\Debug\RandomPassGenerator.dll
+C:\Users\HaykHar\Source\Repos\betconstruct\RandomPassGen\RandomPassGenerator\obj\Debug\RandomPassGenerator.pdb
