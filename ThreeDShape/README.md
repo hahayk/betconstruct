@@ -2,5 +2,4 @@
 
 <i>Below is the demonstration of Class Diagram </i>
 
-![Class Diagram](../../..ClassDiagram1.png)
-Format: ![Alt Text](url)
+![Class Diagram](ClassDiagram1.png)
