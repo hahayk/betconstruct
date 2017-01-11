@@ -3,7 +3,7 @@ It contians base class <b>ElectronicEquipment</b> that has some properties and <
 There are 2 classes (VacumCleaner and TV) which are inherited from base and are overriden <b>ElectricityConsuption()</b> function.
 Below is the code snipet of the base class:
 
-'''C#
+```C#
     class ElectronicEquipment
     {
         public string Purpose { get; set; }
@@ -14,11 +14,11 @@ Below is the code snipet of the base class:
 
         public virtual int ElectricityConsuption() { return 0; } //Watt
     }
-'''
+```
 
 and the example of usage of inherited class
 
-'''C#
+```C#
             TV t = new TV();
             t.ScreenSize = 60;
             t.Purpose = "Leisure";
@@ -28,4 +28,4 @@ and the example of usage of inherited class
             t.Power = 10;
             t.Voltage = 110;
             int powerConsuption = t.ElectricityConsuption();
-'''			
+```
