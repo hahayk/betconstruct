@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperatorOverloading", "Oper
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indexer", "Indexer\Indexer.csproj", "{63407466-E393-410C-97D9-CE4E48637AE7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtentionMethods", "ClassLibrary1\ExtentionMethods.csproj", "{B605FCBA-57B0-4FFA-BD5E-C9B1817DFDA8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{63407466-E393-410C-97D9-CE4E48637AE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63407466-E393-410C-97D9-CE4E48637AE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63407466-E393-410C-97D9-CE4E48637AE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B605FCBA-57B0-4FFA-BD5E-C9B1817DFDA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B605FCBA-57B0-4FFA-BD5E-C9B1817DFDA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B605FCBA-57B0-4FFA-BD5E-C9B1817DFDA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B605FCBA-57B0-4FFA-BD5E-C9B1817DFDA8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
