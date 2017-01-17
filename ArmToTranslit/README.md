@@ -45,7 +45,7 @@ for (int i = 0; i < strSize; ++i)
 ```
 
 The result of the usage of lib is below: <br\>
-![Translit Arm](/images/translit.gif)
+![Translit Arm](https://github.com/harutyunyanhayk/betconstruct/tree/master/ArmToTranslit/images/translit.gif)
 
 <i>Extension methods enable you to "add" methods to existing types without creating a new derived type, 
 recompiling, or otherwise modifying the original type. Extension methods are a special kind of static method, 
