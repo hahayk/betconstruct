@@ -3,6 +3,47 @@
 By using this clas library you can convert latin letters to armenian. <br\>
 In addition there are also some emotics shorcut converters to graphical ones. <br\>
 
+Some code is below:
+```C#
+Dictionary<string, string> dic = new Dictionary<string, string>()
+{
+    //Alphabet
+    {"a", "?" }, {"A", "?" }, {"b", "?" }, {"B", "?" },
+    {"c", "?" }, {"C", "?" }, {"d", "?" }, {"D", "?" },
+    {"e", "?" }, {"E", "?" }, {"f", "?" }, {"F", "?" },
+	//...............
+}
+
+//...............
+
+for (int i = 0; i < strSize; ++i)
+{
+    if ((i + 1) < strSize)
+    {
+        //Check for letters like gh-?, zh-? kh-? ...
+        curStr = str[i].ToString() + str[i + 1].ToString();
+        if (dic.ContainsKey(curStr = str[i].ToString() + str[i + 1].ToString()))
+        {
+            retVal += dic[curStr];
+            ++i;
+        }
+        //if there is no double letter check single ones
+        else if (dic.ContainsKey(curStr = str[i].ToString()))
+        {
+            retVal += dic[curStr];
+        }
+        //if there are no any matching with dictionary
+        //just write to output
+        else
+        {
+            retVal += str[i].ToString();
+        }
+    }
+   //...............
+}
+
+```
+
 The result of the usage of lib is below: <br\>
 ![Translit](/images/translit.gif)
 

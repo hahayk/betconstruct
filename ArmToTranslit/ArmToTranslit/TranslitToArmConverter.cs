@@ -35,7 +35,6 @@ namespace ArmToTranslit
                 //emothics
                 { ":)", "\u263B" }, { ":(", "\u2639"},
                 { "->", "\u261B" }, { "<-", "\u261A"},
-
         };
 
             string retVal = string.Empty;
