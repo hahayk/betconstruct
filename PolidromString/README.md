@@ -24,7 +24,7 @@ public static bool IsPolidromString(this string inputStr)
 }
 ```
 
-The result for given string AnnA it will return true.
+The result for given string AnnA it will return true. <br\>
 The result for given string Hello it will return false. <br\>
 
 
