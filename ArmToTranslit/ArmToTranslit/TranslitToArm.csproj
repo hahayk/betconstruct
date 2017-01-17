@@ -55,7 +55,7 @@
     <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="translit.gif" />
+    <Content Include="images\translit.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
