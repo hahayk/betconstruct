@@ -14,13 +14,21 @@ namespace Events
             Name = name;
         }
 
-
-        public event EventHandler BreakingNews;
+        //public event EventHandler BreakingNews;
+        public event EventHandler<BreakingNewsEventArgs> BreakingNews;
 
         public void BroadcastBreakingNews ()
         {
             //checking news
-            BreakingNews?.Invoke(this, EventArgs.Empty);
+            var args = new BreakingNewsEventArgs()
+            {
+                Title = "Donald Thumps canceled \" Obama \" ",
+                News = new object(),
+                When = DateTime.Now
+
+            };
+
+            BreakingNews?.Invoke(this, args);
         }
     }
 }
