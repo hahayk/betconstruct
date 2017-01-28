@@ -1,1 +1,1 @@
-# betconstruct
+# Materials of "Betconstruct internship" by MIC
