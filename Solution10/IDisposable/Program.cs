@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
@@ -12,17 +13,23 @@ namespace IDisposable
         static void Main(string[] args)
         {
             //IDosposableExample();
-            
-            for (int i = 0; i < 100; i++)
-            {
-                var obj1 = new MyClass($"Object1{i}");
-                Console.WriteLine("-------------");
-                obj1 = new MyClass($"Object {i+100}");
-            }
 
-            Console.WriteLine("Before");
-            GC.Collect();
-            Console.WriteLine("After");
+            //for (int i = 0; i < 100; i++)
+            //{
+            //    var obj1 = new MyClass($"Object1{i}");
+            //    Console.WriteLine("-------------");
+            //    obj1 = new MyClass($"Object {i+100}");
+            //}
+
+            var desktop = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+            var path = Path.Combine(desktop, "file.html");
+
+            var hd = new HtmlDownloader(path);
+            hd.Save("http://mic.am");
+
+            //Console.WriteLine("Before");
+            //GC.Collect();
+            //Console.WriteLine("After");
 
 
         }
