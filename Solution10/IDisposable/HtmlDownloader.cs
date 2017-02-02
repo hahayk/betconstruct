@@ -12,8 +12,7 @@ namespace IDisposable
     {
         private StreamWriter sr;
         private WebClient wc = new WebClient();
-
-
+        
         public HtmlDownloader(string path)
         {
             sr = new StreamWriter(path);
