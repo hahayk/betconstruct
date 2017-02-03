@@ -15,7 +15,7 @@ namespace ConsoleApplication
             Task<string> task = DownloadHtmlAsync("http://mic.am");
             task.Wait();
             string html2 = task.Result;
-
+              
             Task<long> myTask= DoWork("http://mic.am", "http://mic.am/about-us/", "http://mic.am/projects/");
             myTask.Wait();
 
