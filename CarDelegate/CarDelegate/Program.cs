@@ -13,7 +13,7 @@ namespace CarDelegate
             Console.WriteLine("***** Delegates as event enablers *****\n");
 
             Car c1 = new Car("SlugBug", 100, 10);
-            c1.RegisterWithCarEngine( (OnCarEngineEvent));
+            c1.RegisterWithCarEngine((OnCarEngineEvent));
 
             // Speed up (this will trigger the events).
             Console.WriteLine("***** Speeding up *****");
@@ -21,7 +21,18 @@ namespace CarDelegate
             {
                 c1.Accelerate(20);
             }
+
+            c1.AboutToBlow += CarAboutToBlow;
+
+
+
         }
+
+        public static void CarAboutToBlow(string msg) { Console.WriteLine(msg); }
+        public static void CarIsAlmostDoomed(string msg)
+        { Console.WriteLine("=> Critical Message from Car: {0}", msg); }
+        public static void CarExploded(string msg)
+        { Console.WriteLine(msg); }
 
         private static void OnCarEngineEvent(string msg)
         {
