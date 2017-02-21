@@ -31,6 +31,9 @@ namespace CarDelegate
         }
 
         public delegate void CarEngineHandler(string msgForCaller);
+        public event CarEngineHandler Exploded;
+        public event CarEngineHandler AboutToBlow;
+
         private CarEngineHandler listOfHandlers;
 
         public void RegisterWithCarEngine(CarEngineHandler methodToCall)
@@ -42,7 +45,8 @@ namespace CarDelegate
         {
             if (carIsDead)
             {
-                if (listOfHandlers != null)
+                //if (listOfHandlers != null)
+                if(Exploded != null)
                 {
                     listOfHandlers("Sorry, this car is dead...");
                 }
@@ -51,9 +55,13 @@ namespace CarDelegate
             {
                 CurrentSpeed += delta;
 
-                if (10 == (MaxSpeed - CurrentSpeed) && listOfHandlers != null)
+                //if (10 == (MaxSpeed - CurrentSpeed) && listOfHandlers != null)
+                //{
+                //    listOfHandlers("Careful buddy! Gonna blow!");
+                //}
+                if (10 == (MaxSpeed - CurrentSpeed) && AboutToBlow != null)
                 {
-                    listOfHandlers("Careful buddy! Gonna blow!");
+                    AboutToBlow("Careful buddy! Gonna blow!");
                 }
                 if (CurrentSpeed >= MaxSpeed)
                 {
