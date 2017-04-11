@@ -22,7 +22,9 @@ namespace CarDelegate
                 c1.Accelerate(20);
             }
 
+            c1.AboutToBlow += CarIsAlmostDoomed;
             c1.AboutToBlow += CarAboutToBlow;
+            c1.Exploded += CarExploded;
 
 
 

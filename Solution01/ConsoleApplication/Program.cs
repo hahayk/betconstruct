@@ -14,6 +14,10 @@ namespace ConsoleApplication
     {
         static void Main(string[] args)
         {
+
+            List<int> history = new List<int> { 103, 10, 1, 1 };
+            int i = history.BinarySearch(1);
+
             var test = new Test();
             var test2 = new Test();
 

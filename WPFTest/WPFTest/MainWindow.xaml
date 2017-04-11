@@ -1,0 +1,39 @@
+﻿<Window x:Class="WPFTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFTest"
+        mc:Ignorable="d"
+        ResizeMode="CanResize"
+        Title="BetCon" Height="350" Width="525">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="10"/>
+        </Grid.ColumnDefinitions>
+
+        <GridSplitter Grid.Column="0" Width="5"/>
+
+        <TextBox x:Name="txtHtml" 
+            Grid.Column="1" 
+                 VerticalAlignment="Stretch" 
+                 VerticalScrollBarVisibility="Auto"
+                 TextWrapping="Wrap"
+                 Margin="0 10 10 10"/>
+
+        <StackPanel Grid.Column="0">
+            <TextBox x:Name="txtUrl"
+                     Height="30" 
+                     Margin="5 10 0 5"
+                     />
+        <Button x:Name="btnGetHtml"
+            Content="Get" 
+                VerticalAlignment="Top"
+                Margin="5 0 0 0"
+                Height="30" 
+                Click="btnGetHtml_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
